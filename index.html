@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add your CSS styling here */
+  </style>
+  <!-- <script>
+    function myFunction(){
+      window.alert("Successfully Registered")
+    }
+  </script> -->
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="registration-form">
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" required minlength="3">
+    <span class="validation-message" id="full-name-message"></span>
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <span class="validation-message" id="email-message"></span>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required minlength="8">
+    <span class="validation-message" id="password-message"></span>
+    
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required>
+    <span class="validation-message" id="confirm-password-message"></span>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <span class="validation-message" id="dob-message"></span>
+    
+    <button type="submit" id="submit-button" onclick="myFunction()">Register</button>
+  </form>
+
+  <script>
+    // Add your JavaScript code here
+  </script>
+</body>
+</html>

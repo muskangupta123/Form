@@ -1,0 +1,71 @@
+/* Set a consistent base font for the entire page */
+body {
+  font-family:'Times New Roman', Times, serif
+}
+
+/* Style the form container */
+form {
+  width: 300px;
+  margin: auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7; /* Add a subtle background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style labels for input fields */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold; /* Emphasize labels with bold text */
+}
+
+/* Style input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.3s ease; /* Add a smooth transition for border color */
+}
+
+/* Style validation error messages */
+.validation-message {
+  display: block;
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Style for invalid input fields */
+.invalid {
+  border-color: red;
+}
+
+/* Style the submit button */
+#submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add transitions for smoother hover effect */
+}
+
+/* Style the disabled state of the submit button */
+#submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Add a hover effect for the submit button */
+#submit-button:hover {
+  background-color:grey; /* Slightly darker shade on hover */
+  
+}
+
